@@ -1,0 +1,9 @@
+{
+    "database": {
+      "user": "your_username",
+      "password": "your_password",
+      "databaseName": "your_database_name",
+      "address": "your_rds_endpoint:5432"
+    }
+  }
+  
