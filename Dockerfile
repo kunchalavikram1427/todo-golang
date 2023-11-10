@@ -12,7 +12,7 @@ RUN go mod download
 
 # Copy the source code and config file to the container
 COPY . .
-COPY config.json .  # Copy your config file
+COPY config.json .
 
 # Build the Go application
 RUN go build -o todo-app .
